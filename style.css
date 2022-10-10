@@ -1,0 +1,309 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 40px 0;
+}
+
+
+header {
+  /* border: 1px solid red; */
+  background-color: #6451d5;
+
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  /* border: 1px solid brown; */
+}
+
+.header-top {
+  /* border: 2px solid yellow; */
+}
+
+.header-top img,
+.header-nav {
+  /* border: 2px solid #fff; */
+}
+
+.header-nav {
+  display: inline-block;
+  list-style: none;
+  margin-left: 450px;
+
+
+}
+
+.header-nav li {
+  /* border: 2px solid blue; */
+  display: inline-block;
+  margin-right: 30px;
+
+
+}
+
+.header-top img {
+  width: 150px;
+}
+
+.header-nav a {
+  /* border: 2px solid red; */
+  text-decoration: none;
+  color: #fff;
+  vertical-align: 30px;
+}
+
+.header-nav li:last-child {
+  margin-right: 0;
+
+
+}
+
+.promo {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+
+.promo-left {
+  /* border: 2px solid #000; */
+  margin-bottom: 20px;
+  width: 340px;
+}
+
+.promo-left h1 {
+  padding-bottom: 25px;
+  color: #fff;
+
+}
+.promo-left p {
+  color: rgba(160, 167, 160, 0.76);
+  margin-bottom: 150px;
+  line-height: 30px;
+}
+.btn {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 0px;
+  border: 1px solid rgb(42, 21, 64);
+  background-color: rgb(42, 21, 64);
+  display: inline-block;
+  padding: 20px 60px;
+  text-transform: uppercase;
+}
+.promo-right img {
+  /* border: 2px solid #fff; */
+  margin-top: -550px;
+  margin-left: 545px;
+}
+
+
+
+.nav {
+  background-color: rgba(222, 227, 226, 0.42);
+  padding: 10px 0;
+}
+
+.container2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav1,
+.nav2,
+.nav3 {
+  /* border: 1px solid red; */
+  display: inline-block;
+
+}
+.nav1 img,
+.nav2 img,
+.nav3 img {
+  margin-bottom: 20px;
+  padding-left: 100px;
+}
+.nav1 h1,
+.nav2 h1,
+.nav3 h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav1 p,
+.nav2 p,
+.nav3 p {
+  width: 300px;
+  text-align: center;
+
+}
+.nav2 {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+.tabl {
+  padding: 30px 0;
+
+}
+
+.tabl1 {
+
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.tabl1 h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tabl1 table {
+  /* display: inline-block; */
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+table td {
+  height: 30px;
+  vertical-align: top;
+  padding: 20px 20px 30px;
+  font-size: 18px;
+}
+.line1 {
+  background-color: rgba(222, 227, 226, 0.42);
+}
+.feedback {
+  /* border: 1px solid red; */
+  background-color: rgba(222, 227, 226, 0.42);
+}
+.container3 {
+  width: 1200px;
+  margin: 0 auto;
+  /* display: inline-block; */
+}
+.feedback form {
+  /* border: 1px solid #000; */
+  display: inline-block;
+  width: 60%;
+}
+.feedback table {
+  /* border: 1px solid green; */
+  width: 100%;
+  border-collapse: collapse;
+}
+.feedback td {
+  /* border: 1px solid blue; */
+}
+.feedback table tr:first-child td:first-child {
+  width: 8%;
+}
+.feedback table tr:first-child td:first-child, .feedback table tr:nth-child(2) td:first-child {
+  text-align: right;
+}
+
+.feedback input[type="text"], .feedback textarea {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 10px 15px;
+}
+.feedback textarea {
+  height: 70px;
+}
+.feedback input[type="radio"] {
+  margin-right: 15px;
+}
+.feedback label[for="man"] {
+  margin-right: 50px;
+}
+.feedback .btn {
+  width: 100%;
+  text-align: center;
+}
+.feedback td {
+  padding-bottom: 20px;
+}
+.text {
+  /* border: 1px solid red; */
+
+  margin-left: 100px;
+
+  vertical-align: top;
+  display: inline-block;
+}
+
+.text h1 {
+padding-bottom: 20px;
+padding-top: 15px;
+}
+.text p {
+  padding-top: 30px;
+  font-size: 15px;
+}
+.text p:last-child {
+  padding-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  /* border: 1px solid red; */
+
+  background-color: rgb(42, 21, 64);
+
+}
+.container4 {
+  /* border: 1px solid red; */
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: inline-block;
+  margin-top: -200px;
+}
+.box1 ul,
+.box2 ul,
+.box3 ul,
+.box4 ul {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 100px;
+
+}
+.box1 ul {
+  margin-left: 550px;
+}
+
+.box1 a,
+.box2 a,
+.box3 a,
+.box4 a {
+  text-decoration: none;
+  padding-top: 50px;
+  line-height: 40px;
+  color: rgb(203, 168, 231);
+}
+
+.bottom img {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
